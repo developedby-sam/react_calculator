@@ -1,0 +1,38 @@
+.fl-key {
+  height: 4rem;
+  flex: 0 0 calc(100% / 3);
+  font-weight: 600;
+  font-size: 1.6rem;
+  background-color: #f1f5f9;
+  color: #1e293b;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+
+  &:hover {
+    background-color: #e2e8f0;
+  }
+}
+
+.fl-bg-red {
+  background-color: #f87171;
+
+  &:hover {
+    background-color: #fca5a5;
+  }
+}
+
+.fl-w-2x {
+  flex: 0 0 calc(100% / 3 * 2);
+}
+
+.fl-w-3x {
+  flex: 0 0 calc(100% / 3 * 3);
+}
